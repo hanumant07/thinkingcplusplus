@@ -6,15 +6,7 @@
 #include <functional>
 #include <iostream>
 #include <vector>
-
-//**************************************************************************************************
-// Enums
-//**************************************************************************************************
-typedef enum {
-  kGenericAlgoErrorSuccess = 0,
-  kGenericAlgoErrorBadArgs = -1,
-  kGenericAlgoErrorUnhandled = -2,
-} GenericAlgoError;
+#include "generic_algos.h"
 
 //**************************************************************************************************
 // usage
